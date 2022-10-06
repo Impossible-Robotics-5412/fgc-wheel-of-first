@@ -10,6 +10,7 @@ const char* pick_country() {
 
 void setup() {
 	lcd.begin(16, 2);
+	lcd.clear();
 	lcd.print("Spin the Wheel!");
 }
 
